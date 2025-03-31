@@ -12,7 +12,7 @@ https://www.ceneo.pl/84514582#tag=OneClickSearch
 ## Analysis of the structure of the webpage
 |Component|Selector|Variable|
 |---------|--------|--------|
-|opinion ID|div.js_product_review|opinion|
+|opinion ID|div.js_product-review:not(.user-post--highlight)|opinion|
 |opinion ID|data-entry-id|opinion_id|
 |author|user-post-author-name|author|
 |recommendation|spam.user-post__author-recomendation > em|recomendation|
